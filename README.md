@@ -57,10 +57,7 @@ The NYC Airbnb Recommendation System is a project designed to help users find th
    python main.py
    ```
 
-3. Access the system:
-   - If a web interface is implemented, open your browser and navigate to `http://localhost:5000`.
-
-4. Input your preferences and view the recommended listings.
+3. Input your preferences and view the recommended listings.
 
 ## Project Structure
 
