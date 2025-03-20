@@ -66,14 +66,22 @@ The NYC Airbnb Recommendation System is a project designed to help users find th
 
 ```
 nyc_airbnb_rec_sys/
-├── data/                   # Dataset files
-├── models/                 # Machine learning models
-├── notebooks/              # Jupyter notebooks for analysis
-├── static/                 # Static files (CSS, JS, images)
-├── templates/              # HTML templates (if using Flask)
-├── main.py                 # Entry point of the application
-├── requirements.txt        # Python dependencies
-└── README.md               # Project documentation
+├── Phase1/                 
+│   ├── raw/                        # Contains raw, unprocessed data files.
+│   ├── cleaning_process/           # Scripts and processes for cleaning and preparing the data.
+├── Phase2/                 
+│   ├── cleaned/                    # Cleaned data ready for analysis or modeling.
+│   ├── models/                     # Machine learning models created during this phase.
+├── Phase3/                 
+│   ├── cleaned/                    # Cleaned data used for the final phase.
+│   ├── AirbnbRecommendation.css/   # CSS file for styling the web interface.
+│   ├── AirbnbRecommendation.jsx/   # React JSX file for rendering the website.
+│   ├── App.js/                     # Main React application file.
+│   ├── kmeans_model.joblib/        # Serialized KMeans model for clustering.
+│   ├── project_phase3.py/          # Python script for Phase 3 operations.
+│   ├── ridge_regression_model.joblib/ # Serialized Ridge Regression model for predictions.
+├── README.md                       # Documentation for the project.
+└── LICENSE                         # License file for the project.
 ```
 
 ## Contributing
