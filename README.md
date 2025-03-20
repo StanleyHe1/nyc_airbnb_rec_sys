@@ -25,7 +25,7 @@ The NYC Airbnb Recommendation System is a project designed to help users find th
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/nyc_airbnb_rec_sys.git
+   git clone https://github.com/StanleyHe1/nyc_airbnb_rec_sys.git
    ```
 2. Navigate to the project directory:
    ```bash
