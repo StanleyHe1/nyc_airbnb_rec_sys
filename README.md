@@ -44,10 +44,7 @@ The NYC Airbnb Recommendation System is a project designed to help users find th
      ```bash
      venv\Scripts\activate
      ```
-5. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+5. Install the necessary dependencies manually based on your project setup.
 
 ## Usage
 
